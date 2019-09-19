@@ -1,7 +1,7 @@
 # Plancaster
-**bold**
-*italicized*
-~~strikethrough~~
+**bold** <br>
+*italicized* <br>
+~~strikethrough~~ <br>
 
 numbered lists
 1. item one
