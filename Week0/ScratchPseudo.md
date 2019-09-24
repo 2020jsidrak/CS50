@@ -3,17 +3,17 @@
 Lancaster Sprite
 
 Define Introduction <br>
-  show Lancaster costume <break>
-  set rotation style to don't rotate <break>
-  set x = 0 and y = 0 <break>
-  set Score = 0 <break>
-  print No cellphones in the hallway, and please don't have coffee delivered for you! <break>
-  print Catch all the cellphones to avoid Saturday detention. <break>
-  print If you bump into a smiley face, you will be banished to Saturday detention! <break>
-  print The smiley faces move faster as the game goes on. <break>
-  print Press the space bar to begin. <break>
-  wait until space bar pressed <break>
-  <break>
+  show Lancaster costume <br>
+  set rotation style to don't rotate <br>
+  set x = 0 and y = 0 <br>
+  set Score = 0 <br>
+  print No cellphones in the hallway, and please don't have coffee delivered for you! <br>
+  print Catch all the cellphones to avoid Saturday detention. <br>
+  print If you bump into a smiley face, you will be banished to Saturday detention! <br>
+  print The smiley faces move faster as the game goes on. <br>
+  print Press the space bar to begin. <br>
+  wait until space bar pressed <br>
+  <br>
 When green arrow clicked <break>
   call Introduction <break>
 <break>  
