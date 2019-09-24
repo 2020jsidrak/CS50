@@ -2,8 +2,7 @@
 <break>
 Lancaster Sprite
 
-Define Introduction 
-<break>
+Define Introduction <break>
   show Lancaster costume <break>
   set rotation style to don't rotate <break>
   set x = 0 and y = 0 <break>
