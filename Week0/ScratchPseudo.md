@@ -42,7 +42,7 @@ When game is over <br>
   print GAME OVER! <br>
   print I would've gotten away with it if it weren't for you meddling kids! <br>
   print Your score is + Score <br>
-  if Score >= 30 <br>
+  if Score >= 20 <br>
     print You're safe from Saturday detention...for now. <br>
   else <br>
     print Not enough to avoid Saturday detention....see you there <br>
@@ -78,7 +78,7 @@ Smile Sprite <br>
   When game begins <br>
     show Smile <br>
     set rotation style to don't rotate <br>
-    set Time = 2 <br>
+    set Time = 1.75 <br>
     forever <br>
       glide to rand position in Time seconds <br>
       if on edge <br>
