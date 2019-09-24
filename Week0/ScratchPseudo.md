@@ -1,8 +1,8 @@
 # Plancaster 
-<break>
+<br>
 Lancaster Sprite
 
-Define Introduction <break>
+Define Introduction <br>
   show Lancaster costume <break>
   set rotation style to don't rotate <break>
   set x = 0 and y = 0 <break>
