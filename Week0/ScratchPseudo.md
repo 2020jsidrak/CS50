@@ -14,78 +14,78 @@ Define Introduction <br>
   print Press the space bar to begin. <br>
   wait until space bar pressed <br>
   <br>
-When green arrow clicked <break>
-  call Introduction <break>
-<break>  
-When space bar pressed <break>
-  begin game <break>
-  forever <break>
-    if left arrow pressed <break>
-      set x = x - 12 <break>
-    if right arrow pressed <break>
-      set x = x + 12 <break>
-    if down arrow pressed <break>
-      set y = y - 12 <break>
-    if up arrow pressed <break>
-      set y = y + 12 <break>
-    if on edge <break>
-      bounce <break>
-      <break>
-When game begins <break>
-  forever <break>
-    play Power until done <break>
-    <break>
-When game is over <break>
-  stop other scripts <break>
-  switch costume to Cogdill <break>
-  start sound Lose <break>
-  print GAME OVER! <break>
-  print I would've gotten away with it if it weren't for you meddling kids! <break>
-  print Your score is + Score <break>
-  if Score >= 30 <break>
-    print You're safe from Saturday detention...for now. <break>
-  else <break>
-    print Not enough to avoid Saturday detention....see you there <break>
-    play Laugh3 until done <break>
-    <break>
-Cellphone Sprite <break>
-<break>
-  When green arrow clicked <break>
-    hide Cellphone <break>
-  <break>
-  When game begins <break>
-    show Cellphone <break>
-    set rotation style to don't rotate <break>
-    forever <break>
-      glide to rand position for one second <break>
-      if on edge <break>
-        bounce <break>
-      if touching Lancaster <break>
-        set Score = Score + 1 <break>
-        hide Cellphone <break>
-        go to rand position <break>
-        wait 0.8 seconds <break>
-        show Cellphone <break>
-         <break>
-  When game is over <break>
-    hide Cellphone <break>
-    <break>
-Smile Sprite <break>
-<break>
-  When play button clicked <break>
-    hide Smille <break>
-    <break>
-  When game begins <break>
-    show Smile <break>
-    set rotation style to don't rotate <break>
-    set Time = 2 <break>
-    forever <break>
-      glide to rand position in Time seconds <break>
-      if on edge <break>
-        bounce <break>
-      Set Time = Time - 0.02 <break>
-      if touching Lancaster <break>
-        end game <break>
-        hide Smile <break>
+When green arrow clicked <br>
+  call Introduction <br>
+<br>  
+When space bar pressed <br>
+  begin game <br>
+  forever <br>
+    if left arrow pressed <br>
+      set x = x - 12 <br>
+    if right arrow pressed <br>
+      set x = x + 12 <br>
+    if down arrow pressed <br>
+      set y = y - 12 <br>
+    if up arrow pressed <br>
+      set y = y + 12 <br>
+    if on edge <br>
+      bounce <br>
+      <br>
+When game begins <br>
+  forever <br>
+    play Power until done <br>
+    <br>
+When game is over <br>
+  stop other scripts <br>
+  switch costume to Cogdill <br>
+  start sound Lose <br>
+  print GAME OVER! <br>
+  print I would've gotten away with it if it weren't for you meddling kids! <br>
+  print Your score is + Score <br>
+  if Score >= 30 <br>
+    print You're safe from Saturday detention...for now. <br>
+  else <br>
+    print Not enough to avoid Saturday detention....see you there <br>
+    play Laugh3 until done <br>
+    <br>
+Cellphone Sprite <br>
+<br>
+  When green arrow clicked <br>
+    hide Cellphone <br>
+  <br>
+  When game begins <br>
+    show Cellphone <br>
+    set rotation style to don't rotate <br>
+    forever <br>
+      glide to rand position for one second <br>
+      if on edge <br>
+        bounce <br>
+      if touching Lancaster <br>
+        set Score = Score + 1 <br>
+        hide Cellphone <br>
+        go to rand position <br>
+        wait 0.8 seconds <br>
+        show Cellphone <br>
+         <br>
+  When game is over <br>
+    hide Cellphone <br>
+    <br>
+Smile Sprite <br>
+<br>
+  When play button clicked <br>
+    hide Smille <br>
+    <br>
+  When game begins <br>
+    show Smile <br>
+    set rotation style to don't rotate <br>
+    set Time = 2 <br>
+    forever <br>
+      glide to rand position in Time seconds <br>
+      if on edge <br>
+        bounce <br>
+      Set Time = Time - 0.02 <br>
+      if touching Lancaster <br>
+        end game <br>
+        hide Smile <br>
    
  
