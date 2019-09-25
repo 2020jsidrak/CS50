@@ -8,7 +8,7 @@ for(int i = 0; i < 5; i++)
   x++; # only adds 1
   }
 
-int[][] RBG = new int[100][100];
+int[][] RGB = new int[100][100];
 a[0][0] = 250250250;
 printf(a[0][1]);
 bool hi = true;
