@@ -19,7 +19,9 @@ while(true)
   
 }
 return y;
+get_String("Answer");
 ```
+
 <img alt = "https://i.ytimg.com/vi/OTvCYGFoOw8/maxresdefault.jpg" width = "600" height = "600">
 
 Sup, Earth
